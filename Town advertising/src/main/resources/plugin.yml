@@ -1,0 +1,13 @@
+name: Town_adv
+version: ${project.version}
+main: haskell_md2.town_adv.Town_adv
+api-version: 1.16
+authors: [ haskell_md2 ]
+description: advertising for towns
+depend:
+  - Vault
+
+commands:
+  tprem:
+    permission: townadvert.selection
+
